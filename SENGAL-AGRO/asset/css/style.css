@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css3?family-Reddessed&family-Merriweather:wght@300;400;700&Diaplay-swap');
+
+.redressed{
+    font-family: 'Redressed' cursive;
+}
+
+.merriweather{
+    font-family: 'Merriweather' sans-serif;
+}
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.55);
+    z-index: 99;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner, .order-form{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/accueil2.jpg)
+     center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.order-form{
+    height: 600px;
+}
+
+.banner .banner-desc{
+    font-size: 35px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.cc-menu{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/accueil.jpg)
+    center center fixed no-repeat;
+    background-size: cover;
+    height: 2200px;
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #FFF;
+    background-color: var(--bs-teal);
+}
